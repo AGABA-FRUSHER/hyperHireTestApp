@@ -1,5 +1,6 @@
 <template>
-<div class="body bg-blue">
+<div class="body bg-body">
+    <HeaderComponent/>
     <div class="row">
         <div class="col-8">
             <div class="decs-wrapper">
@@ -51,23 +52,7 @@
         <div class="col-4">
             <div class="slider-wrapper">
                 slider here
-                <q-carousel
-      animated
-      v-model="slide"
-      navigation
-      infinite
-      :autoplay="autoplay"
-      arrows
-      transition-prev="slide-right"
-      transition-next="slide-left"
-      @mouseenter="autoplay = false"
-      @mouseleave="autoplay = true"
-    >
-      <q-carousel-slide :name="1" img-src="https://cdn.quasar.dev/img/mountains.jpg" />
-      <q-carousel-slide :name="2" img-src="https://cdn.quasar.dev/img/parallax1.jpg" />
-      <q-carousel-slide :name="3" img-src="https://cdn.quasar.dev/img/parallax2.jpg" />
-      <q-carousel-slide :name="4" img-src="https://cdn.quasar.dev/img/quasar.jpg" />
-    </q-carousel>
+                <sliderComponent/>
             </div>
         </div>
     </div>
@@ -75,13 +60,16 @@
     <div class="item flex-1">one</div>
     <div class="item flex-1">two</div>
     <div class="item flex-1">three</div>
-  </div>
+    <div class="item flex-1">four</div>
+</div>
 
 </div>
 </template>
 
 
 <script setup>
+import HeaderComponent from 'src/components/Header/HeaderComponent.vue';
+import sliderComponent from 'src/components/slider/sliderComponent.vue';
 import { ref } from 'vue';
 
 const slide = ref(1)
@@ -92,19 +80,26 @@ const autoplay = ref(true)
 
 <style scoped>
 .items {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    gap: 8px;
 }
 
 .item {
-  /* Add your item styling here */
-  border: 1px solid #ccc;
-  padding: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 6px;
+
 }
 
 .flex-1 {
-  /* Make each item take full width */
-  flex-grow: 1;
+    flex-grow: 1;
+}
+
+.bg-body {
+    background-image: url("bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 </style>
