@@ -1,6 +1,8 @@
-# Quasar App (quasar-project)
+# hyperHireTestApp
 
-A Quasar Project
+##
+hyperHireTestApp
+This is a web app developed using vue3 and quasar framework
 
 ## Install the dependencies
 ```bash
@@ -22,7 +24,6 @@ yarn lint
 npm run lint
 ```
 
-
 ### Format the files
 ```bash
 yarn format
@@ -30,12 +31,7 @@ yarn format
 npm run format
 ```
 
-
-
 ### Build the app for production
 ```bash
 quasar build
 ```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
