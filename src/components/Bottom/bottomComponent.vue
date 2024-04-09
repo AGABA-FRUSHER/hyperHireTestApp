@@ -28,9 +28,9 @@
                         </p>
                         <span>바로가기 <q-icon name="arrow_forward" size="md"></q-icon> </span>
                     </div>
-                    <div class="col">three</div> <div class="col">
+                    <div class="col">
                         <span class="bg-grey q-pa-xs rounded">
-                            <q-icon name="code_off" size="md"></q-icon>
+                            <q-icon name="person_outline" size="md"></q-icon>
                         </span>
                         <p class="text-bold q-mt-sm">
                             외국인 원격 채용 (비개발)
@@ -48,7 +48,7 @@
                     </div>
                     <div class="col">
                         <span class="bg-grey q-pa-xs rounded">
-                            <q-icon name="code_off" size="md"></q-icon>
+                            <q-icon name="settings" size="md"></q-icon>
                         </span>
                         <p class="text-bold q-mt-sm">
                             해외 개발자 활용 서비스
