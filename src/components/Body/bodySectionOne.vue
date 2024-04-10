@@ -1,8 +1,7 @@
 <template>
-    <div class="row" style="margin-left: 100px">
+    <div class="row" style="margin-left: 70px">
     <div class="col-4">
         <div class="left-desc q-pa-lg">
-            <!-- <img src="quasar-project/src/assets/hyper.png"> -->
             <img src="src/assets/hyper.png"/>
             <p>
                 우리는 국가의 장벽을 넘어 최고의 인재를 매<br>

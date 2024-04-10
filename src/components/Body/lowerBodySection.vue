@@ -8,7 +8,7 @@ appear
         <div class="item flex-1">
             <div class="row">
                 <span>
-                    <q-icon class="transparent-icon" name="personal_video" size="md"></q-icon>
+                    <q-icon class="bg-grey-2 q-pa-md q-mb-md" name="personal_video" size="md"></q-icon>
                 </span>
                 <p class="text-bold q-mt-sm">
                     해외 마케팅
@@ -18,7 +18,7 @@ appear
         <div class="item flex-1">
             <div class="row">
                 <span>
-                    <q-icon name="wallpaper" size="md"></q-icon>
+                    <q-icon class="bg-grey-2 q-pa-md q-mb-md" name="wallpaper" size="md"></q-icon>
                 </span>
                 <p class="text-bold q-mt-sm">
                     퍼블리셔
@@ -28,7 +28,7 @@ appear
         <div class="item flex-1">
             <div class="row">
                 <span >
-                    <q-icon name="view_in_ar" size="md"></q-icon>
+                    <q-icon class="bg-grey-2 q-pa-md q-mb-md" name="view_in_ar" size="md"></q-icon>
                 </span>
                 <p class="text-bold q-mt-sm">
                     캐드원(제도사)
@@ -38,7 +38,7 @@ appear
         <div class="item flex-1">
             <div class="row">
                 <span>
-                    <q-icon name="explore" size="md"></q-icon>
+                    <q-icon class="bg-grey-2 q-pa-md q-mb-md" name="explore" size="md"></q-icon>
                 </span>
                 <p class="text-bold q-mt-sm">
                     해외 세일즈
@@ -48,7 +48,7 @@ appear
         <div class="item flex-1">
             <div class="row">
                 <span>
-                    <q-icon name="settings_phone" size="md"></q-icon>
+                    <q-icon class="bg-grey-2 q-pa-md q-mb-md" name="settings_phone" size="md"></q-icon>
                 </span>
             </div>
         </div>
