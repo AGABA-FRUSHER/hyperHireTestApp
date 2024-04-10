@@ -4,7 +4,7 @@
         <bodySectionOne/>
         <bodySectionTwo/>
             
-    <div>
+        <div class="row" style="margin-left: 100px">
         <p>
             ⓒ 2023 Hyperhire
         </p>

@@ -1,5 +1,5 @@
 <template>
-    <div class="row">
+    <div class="row" style="margin-left: 100px">
     <div class="col-4">
         <div class="left-desc q-pa-lg">
             <!-- <img src="quasar-project/src/assets/hyper.png"> -->

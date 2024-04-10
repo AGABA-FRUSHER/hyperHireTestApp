@@ -1,5 +1,5 @@
 <template>
-    <div class="row">
+    <div class="row" style="margin-left: 100px">
             <div class="col">
                 <p>
                     상호명
