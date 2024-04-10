@@ -4,18 +4,23 @@
     <div class="row">
         <div class="col-8">
             <div class="decs-wrapper">
+                <div>
+                    <h5>
+                        풀타임,파트타임
+                    </h5>
+                </div>
                 <div class="main-desc q-pa-lg">
-                    <p>
+                    <h3>
                         최고의 실력을 가진<br>
                         외국인 인재를 찾고 계신가요
-                    </p>
-                    <p>
+                    </h3>
+                    <h5>
                         법률 및 인사관리 부담없이<br>
                         1주일 이내에 원격으로 채용해보세요.                
-                    </p>
-                    <p>
+                    </h5>
+                    <h5>
                         개발자가 필요하신가요?
-                    </p>
+                    </h5>
                 </div>
                 <div class="desc-items q-pa-lg">
                     <div class="row">
@@ -51,7 +56,11 @@
         </div>
         <div class="col-4">
             <div class="slider-wrapper">
-                slider here
+                <div class="ro">
+                    <h4>
+                        월 100만원
+                    </h4>
+                </div>
                 <sliderComponent/>
             </div>
         </div>
