@@ -56,12 +56,7 @@
             </div>
         </div>
     </div>
-        <div class="items flex">
-    <div class="item flex-1">one</div>
-    <div class="item flex-1">two</div>
-    <div class="item flex-1">three</div>
-    <div class="item flex-1">four</div>
-</div>
+    <lowerBodySection/>
 
 </div>
 </template>
@@ -70,6 +65,7 @@
 <script setup>
 import HeaderComponent from 'src/components/Header/HeaderComponent.vue';
 import sliderComponent from 'src/components/slider/sliderComponent.vue';
+import lowerBodySection from 'src/components/Body/lowerBodySection.vue';
 import { ref } from 'vue';
 
 const slide = ref(1)
@@ -79,21 +75,6 @@ const autoplay = ref(true)
 
 
 <style scoped>
-.items {
-    display: flex;
-    gap: 8px;
-}
-
-.item {
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 6px;
-
-}
-
-.flex-1 {
-    flex-grow: 1;
-}
 
 .bg-body {
     background-image: url("bg.png");
