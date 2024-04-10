@@ -2,9 +2,11 @@
     <div>
       <div class="appbar">
       <div class="toolbar">
-        <h5 class="btn">Home</h5>
+        <h5 class="btn">
+          <img src="src/assets/hyper.png"/>
+        </h5>
         <div class="btn" style="display: flex; gap: 45px">
-          <h5>채용</h5>
+          <dropDownButton/>
           <h5>해외 개발자 활용 서비스</h5>
         </div>
         <h5 class="btn">문의하기</h5>
@@ -14,6 +16,7 @@
 </template>
 
 <script setup>
+import dropDownButton from 'src/components/dropDown/dropDownButton.vue';
 </script>
 
 <style scoped>

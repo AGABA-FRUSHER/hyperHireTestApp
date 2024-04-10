@@ -1,6 +1,6 @@
 
 <template>
-    <div class="bottom">
+    <div class="bottom q-pa-lg">
         <bodySectionOne/>
         <bodySectionTwo/>
             
@@ -19,3 +19,6 @@ import bodySectionTwo from 'src/components/Body/bodySectionTwo.vue';
 
 
 </script>
+
+<style scoped>
+</style>

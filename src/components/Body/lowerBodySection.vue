@@ -1,9 +1,14 @@
 <template>
-    <div class="items flex" style="color: white;">
+<transition
+appear
+  enter-active-class="animated slideInLeft delay-10s repeat-2"
+  leave-active-class="animated fadeOut"
+>
+<div class="items flex" >
         <div class="item flex-1">
             <div class="row">
-                <span class="bg-grey q-pa-xs rounded">
-                    <q-icon name="personal_video" size="md"></q-icon>
+                <span>
+                    <q-icon class="transparent-icon" name="personal_video" size="md"></q-icon>
                 </span>
                 <p class="text-bold q-mt-sm">
                     해외 마케팅
@@ -12,7 +17,7 @@
         </div>
         <div class="item flex-1">
             <div class="row">
-                <span class="bg-grey q-pa-xs rounded">
+                <span>
                     <q-icon name="wallpaper" size="md"></q-icon>
                 </span>
                 <p class="text-bold q-mt-sm">
@@ -22,7 +27,7 @@
         </div>
         <div class="item flex-1">
             <div class="row">
-                <span class="bg-grey q-pa-xs rounded">
+                <span >
                     <q-icon name="view_in_ar" size="md"></q-icon>
                 </span>
                 <p class="text-bold q-mt-sm">
@@ -32,7 +37,7 @@
         </div>
         <div class="item flex-1">
             <div class="row">
-                <span class="bg-grey q-pa-xs rounded">
+                <span>
                     <q-icon name="explore" size="md"></q-icon>
                 </span>
                 <p class="text-bold q-mt-sm">
@@ -42,12 +47,14 @@
         </div>
         <div class="item flex-1">
             <div class="row">
-                <span class="bg-grey q-pa-xs rounded">
+                <span>
                     <q-icon name="settings_phone" size="md"></q-icon>
                 </span>
             </div>
         </div>
     </div>
+</transition>
+
 </template>
 
 <script setup>
@@ -57,16 +64,22 @@
 .items {
     display: flex;
     gap: 8px;
+    margin-top: 50px;
+    color: white;
+    padding: 100px;
 }
 
 .item {
-    border: 1px solid #ccc;
+    border: 1px solid #ffff;
     padding: 20px;
     border-radius: 6px;
 }
 
 .flex-1 {
     flex-grow: 1;
+}
+.transparent-icon {
+    opacity: 0.5;
 }
 
 </style>

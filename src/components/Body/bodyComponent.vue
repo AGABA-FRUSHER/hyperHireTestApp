@@ -1,7 +1,7 @@
 <template>
 <div class="body bg-body">
     <HeaderComponent/>
-    <div class="row">
+    <div class="row" style="margin-left: 100px;">
         <div class="col-8">
             <div class="decs-wrapper" style="color: white;">
                 <div>
@@ -25,7 +25,7 @@
                 <div class="desc-items q-pa-lg">
                     <div class="row">
                         <div class="col q-pa-md">
-                            <q-separator/>
+                            <q-separator class="q-mb-md" color="white"/>
                             <bold style="font-weight: bold;">
                                 평균 월 120만원
                             </bold>
@@ -35,7 +35,7 @@
                             </div>
                         </div>
                         <div class="col q-pa-md">
-                            <q-separator/>
+                            <q-separator class="q-mb-md" color="white"/>
                             <bold style="font-weight: bold;">
                                 최대 3회 인력교체
                             </bold>
@@ -45,7 +45,7 @@
                             </div>
                         </div>
                         <div class="col q-pa-md">
-                            <q-separator/>
+                            <q-separator class="q-mb-md" color="white"/>
                             <bold style="font-weight: bold;">
                                 평균 3일, 최대 10일
                             </bold>
