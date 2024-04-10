@@ -1,5 +1,4 @@
 
-import BodySectionOne from '../Body/bodySectionOne.vue';
 <template>
     <div class="bottom">
         <bodySectionOne/>

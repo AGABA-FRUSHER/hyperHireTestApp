@@ -3,7 +3,7 @@
     <HeaderComponent/>
     <div class="row">
         <div class="col-8">
-            <div class="decs-wrapper">
+            <div class="decs-wrapper" style="color: white;">
                 <div>
                     <h5>
                         풀타임,파트타임
@@ -26,7 +26,9 @@
                     <div class="row">
                         <div class="col q-pa-md">
                             <q-separator/>
-                            <bold>평균 월 120만원</bold>
+                            <bold style="font-weight: bold;">
+                                평균 월 120만원
+                            </bold>
                             <div class="content">
                                 임금을 해당 국가를 기준<br>
                                 으로 계산합니다.
@@ -34,7 +36,9 @@
                         </div>
                         <div class="col q-pa-md">
                             <q-separator/>
-                            <bold>최대 3회 인력교체</bold>
+                            <bold style="font-weight: bold;">
+                                최대 3회 인력교체
+                            </bold>
                             <div class="content">
                                 막상 채용해보니 맞지 않<br>
                                 아도 걱정하지 마세요. 
@@ -42,7 +46,9 @@
                         </div>
                         <div class="col q-pa-md">
                             <q-separator/>
-                            <bold>평균 3일, 최대 10일</bold>
+                            <bold style="font-weight: bold;">
+                                평균 3일, 최대 10일
+                            </bold>
                             <div class="content">
                                 급하게 사람이 필요한 경<br>
                                 우에도 빠른 채용이 가능<br>
@@ -56,7 +62,7 @@
         </div>
         <div class="col-4">
             <div class="slider-wrapper">
-                <div class="ro">
+                <div class="ro" style="color: white;">
                     <h4>
                         월 100만원
                     </h4>

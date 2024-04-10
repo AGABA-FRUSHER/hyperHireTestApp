@@ -1,9 +1,9 @@
 <template>
-    <div class="items flex">
+    <div class="items flex" style="color: white;">
         <div class="item flex-1">
             <div class="row">
                 <span class="bg-grey q-pa-xs rounded">
-                    <q-icon name="settings_phone" size="md"></q-icon>
+                    <q-icon name="personal_video" size="md"></q-icon>
                 </span>
                 <p class="text-bold q-mt-sm">
                     해외 마케팅
@@ -13,7 +13,7 @@
         <div class="item flex-1">
             <div class="row">
                 <span class="bg-grey q-pa-xs rounded">
-                    <q-icon name="settings_phone" size="md"></q-icon>
+                    <q-icon name="wallpaper" size="md"></q-icon>
                 </span>
                 <p class="text-bold q-mt-sm">
                     퍼블리셔
@@ -23,7 +23,7 @@
         <div class="item flex-1">
             <div class="row">
                 <span class="bg-grey q-pa-xs rounded">
-                    <q-icon name="settings_phone" size="md"></q-icon>
+                    <q-icon name="view_in_ar" size="md"></q-icon>
                 </span>
                 <p class="text-bold q-mt-sm">
                     캐드원(제도사)
@@ -33,7 +33,7 @@
         <div class="item flex-1">
             <div class="row">
                 <span class="bg-grey q-pa-xs rounded">
-                    <q-icon name="settings_phone" size="md"></q-icon>
+                    <q-icon name="explore" size="md"></q-icon>
                 </span>
                 <p class="text-bold q-mt-sm">
                     해외 세일즈
